@@ -3,7 +3,7 @@ module.exports = {
   //If any is available as an enviromental variable, use that value. Otherwise, use a default one.
   'ipaddress' : process.env.IP || '127.0.0.1',
   'port'      : process.env.PORT || 8080,
-  'database'  : 'mongodb://localhost/users'
+  'database'  : 'mongodb://localhost/measurements'
 };
 
 //Openshift configuration.
